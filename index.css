@@ -6,6 +6,20 @@ body{
   background: linear-gradient(45deg, #fa0ffa, #19191a); /* #667eea, #764ba2 */ /* #fa0ffa, #19191a */
   margin: 0;
   font-family: Arial, sans-serif;
+   animation: changeBg 15s infinite alternate;
+}
+
+@keyframes changeBg {
+  0% {
+    background: linear-gradient(45deg, #fa0ffa, #19191a);
+  }
+  50%{
+    background: linear-gradient(45deg, #8598f0, #8255af);
+  }
+  100%{
+    background: linear-gradient(45deg, #19191a,#fa0ffa);
+  }
+  
 }
 
 .Clock-container{
